@@ -12,7 +12,7 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             double num,i=0,h=0,j=0;
-            StreamWriter sw = new StreamWriter("D:\\HMW.txt");
+            StreamWriter sw = new StreamWriter("D:\\WebColorPages.html");
             string text;
             text = "<!DOCTYPE html> @ <html> @ <title>HMW1-Q1</title> @<head> @</head> @@<body>";
             text = text.Replace("@",  System.Environment.NewLine);
